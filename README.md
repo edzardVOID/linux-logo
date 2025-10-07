@@ -6,7 +6,7 @@ Custom theme untuk Plymouth Linux Mint dengan logo baru.
 ![Screenshot](https://github.com/edzardVOID/linux-logo-plymouth/blob/main/preview.png)
 
 ## Fitur
-- Ganti logo Plymouth bawaan Linux Mint
+- Ganti logo Plymouth/Boot bawaan Linux Mint/dll.
 - Simple dan mudah di-install
 - Kompatibel dengan Linux Mint versi 21+
 
