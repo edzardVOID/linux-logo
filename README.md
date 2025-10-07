@@ -31,7 +31,7 @@ sudo update-initramfs -u
 
 Lisensi
 -------
-Theme ini fork dari https://www.gnome-look.org/u/eren16 dan dimodifikasi oleh EdzardVOID.
+Tema ini fork dari https://www.gnome-look.org/u/eren16 dan dimodifikasi oleh EdzardVOID.
 Distribusi dan modifikasi diizinkan di bawah ketentuan GNU General Public License v3 (GPL-3.0). 
 Lihat LICENSE file untuk detail.
 
