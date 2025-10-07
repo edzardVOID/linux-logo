@@ -1,18 +1,33 @@
-Just Standart linux logo with no stuck problem cause potato laptop
+# Plymouth Custom Theme
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Custom theme untuk Plymouth Linux Mint dengan logo baru.
 
-$sudo cp -r {YOUR EXTRACT DIRECTORY} /usr/share/plymouth/themes
+## Preview
+![Screenshot](https://github.com/edzardVOID/linux-logo-plymouth/blob/main/preview.png)
 
-$sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/linux-logo/linux-logo.plymouth 250
+## Fitur
+- Ganti logo Plymouth bawaan Linux Mint
+- Simple dan mudah di-install
+- Kompatibel dengan Linux Mint versi 21+
 
-$sudo update-alternatives --config default.plymouth
+## Instalasi
+1. Clone atau download repo ini:
+https://github.com/edzardVOID/linux-logo-plymouth.git
 
-$sudo update-initramfs -u
+2. Jalankan script install:
 
-////////////////////////////////////////////
+sudo cp -r THEME /usr/share/plymouth/themes
 
-Preview :
+sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/linux-logo/linux-logo.plymouth 250
+
+sudo update-alternatives --config default.plymouth  # pilih linux-logo
+
+sudo update-initramfs -u
 
 
-<img width="1597" height="874" alt="doc_2025-10-06_20-52-46" src="https://github.com/user-attachments/assets/7ed1b275-1693-4f3f-bdb4-e41d0275becd" />
+3. Reboot untuk melihat theme baru.
+
+## Lisensi
+
+Theme ini fork dari https://www.gnome-look.org/u/eren16 dan dimodifikasi oleh EdzardVOID. Lisensi MIT.
+
