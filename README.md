@@ -27,8 +27,6 @@ sudo update-initramfs -u
 
 3. Reboot untuk melihat theme baru.
 
-## Lisensi
-
 Lisensi
 -------
 Tema ini fork dari https://www.gnome-look.org/u/eren16 dan dimodifikasi oleh EdzardVOID.
